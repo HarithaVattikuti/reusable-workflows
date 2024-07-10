@@ -5,6 +5,7 @@
 name: CodeQL
 
 on:
+  workflow_dispatch:
   workflow_call:
     inputs:
       languages:
